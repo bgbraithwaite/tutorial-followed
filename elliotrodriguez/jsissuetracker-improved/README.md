@@ -6,7 +6,7 @@
 
 - An improved version of the [CodingTheSmartWay.com tutorial](https://github.com/seeschweiler/jsissuetracker). elliotrodriguez kept his own README notes on [his repo](https://github.com/elliotrodriguez/jsissuetracker-improved).
 
-- Tutorial uses: Bootstrap.
+- Tutorial uses: Bootstrap, jQuery, ChanceJS library (for UUID generation).
 
 - I tried to only copy & paste if it was a URL or text blob. I basically ignored the tab formatting & left it to VSCode to auto-format.
 
