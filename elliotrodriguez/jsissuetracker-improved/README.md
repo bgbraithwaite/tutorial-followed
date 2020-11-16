@@ -12,12 +12,12 @@
 
 ## Debugging
 
-- asdf
+- Nothing needed debugging! I learned how to use VSCode's inbuilt `diff` tool to find typos, and the JS was already fine.
 
 ## Things I Don't Understand (Yet)
 
-- asdf
+- Why do some of the lines *not* end with a semicolon (when I would naively expect all blocks to need semicolons separating their component parts)?
 
 ## Lessons Learned
 
-- asdf
+- To use VSCode's quick `diff` of working file with clipboard contents: `Ctrl+K C`. Opens a new tab with clipboard contents in left side of editor, working file in right side of editor, and highlights changes between the two. Also works for partial content (e.g., URLs, shorter snippets of code).
