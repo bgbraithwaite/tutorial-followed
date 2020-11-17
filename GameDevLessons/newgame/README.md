@@ -4,15 +4,17 @@ Tutorial followed from the video by Chris DeLeon of HomeTeam GameDev, published 
 
 ## Notes
 
-- I was interested in following this tutorial despite its age because I wanted to familiarize myself with older coding conventions, with reading a new kind of code, and as a short break from completing my own projects (it does promise results in just over five minutes). I don't think I will rewrite this, at least not soon, since I am focusing on the HTML/CSS side of things. It is also only tangentially related to typical web dev, but that's what makes it a fun breather.
-
-- The tutorial author *typed* twice as fast as I could follow, coding as he thought, and I was just barely keeping up with the broader concepts of what was done. I am so glad to hear his thoughts as he typed, because otherwise this is gibberish to me.
+I was interested in following this tutorial despite its age because I wanted to familiarize myself with reading and understanding pre-ES2015 conventions, and I needed a short break from my freeCodeCamp projects (it does promise results in just over five minutes). I may rewrite this, but not soon. I am focusing on HTML/CSS, and this is a fun breather only tangentially related to typical web dev.
 
 ## Debugging
 
-So, I made a horrible typo that was extremely awful. Instead of typing `cc.fillStyle='white';` when defining the color of the interactive elements of the game, I typed `cc.filStyle='white';`. EVERYTHING WAS BLACK. EVERYTHING WAS WORKING **BUT I COULDN'T SEE IT**.
+The tutorial author moved at such a fast pace it was hard just to keep up with *typing*. He explained as he coded, and I only just grasped the broader concepts the first time through. After a few minutes, I had typed out the full project, but I had only a black box, with no paddles, text, or ball.
 
-Since there was no change of color, just an odd unused bit of code, all the game functions were working just fine, but I couldn't see the black-on-black because I missed typing an 'l', so I spent like fifteen minutes poring over the code and eventually just search and replacing all the variable names and other repeated text until I found the inevitable typo. And it wasn't even one of the super short variables. However, it felt **awesome** to have everything work *and* be able to see it.
+I got no errors in the developer consoles for Chromium or Firefox. CodePen's "Analyze JavaScript" button showed no errors. I was stumped.
+
+I spent something like fifteen minutes poring over the code line by line, then I found an enhanced version in the YouTube comments to diff against line by line, *then* I searched and replaced all the variable names and other repeated text until I found the *inevitable* typo. And it wasn't even one of the super short variables! It felt *awesome* to have everything work *and* be able to see it.
+
+Instead of typing `cc.fillStyle='white';` when defining the color of the interactive elements of the game, I had typed `cc.filStyle='white';`. *Everything* was black. The project was working properly the whole time, but I couldn't see it until I fixed a single missing 'l'.
 
 ## Things I Don't Understand (Yet)
 
@@ -24,6 +26,14 @@ Since there was no change of color, just an odd unused bit of code, all the game
 
 ## Enlightenment?
 
-- I'm getting better at using `git`, and I am enjoying using it as a sub-blog level of informal writing. 
+- The tutorial author coded and explained as he thought. There was a rhythm to it like when I play piano in flow state. Explaining aloud as I code seems like a particularly valuable communication skill to develop. I may even screen record myself to analyze my speech rythms and thought processes afterward, but that's a whole extra set of skills that I may not want to delve into while I'm already working on completing freeCodeCamp.
 
-- I did follow much of the code, and I want to do more JS and even HTML/CSS tutorials like this one -- live explanation rather than chunks of code, chunks of documentation.
+- This tutorial feels closest to what it's like inside the head of someone doing this for their work who is good at it, and I want more exposure to it by following more tutorials using the same format.
+
+- I'm getting better at using `git`, and I am enjoying using it as a sub-blog level of informal writing. I practiced writing this README in `vim`, using simple editing shortcuts like `dd` and `p` to move lines around.
+
+- `<canvas>` is less intimidating than I thought.
+
+## Postscript
+
+I took a break because I was having difficulty completing my next project (the technical documentation page). I have a clearer idea for what I want to do to finish it now, and I have a better sense of how to chunk my tasks. All told, I am glad I took this break! I got a lot more out of it than I thought I would going in.
